@@ -1,0 +1,211 @@
+.gamePicked {
+  color: #fff;
+  width: 1000px;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-inline: auto;
+}
+
+.item-container {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.item-image-container {
+  margin-top: 25px;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.item-image-container.rock {
+  background-color: #fff;
+  border: 20px hsl(349, 71%, 52%) solid;
+}
+.item-image-container.paper {
+  background-color: #fff;
+  border: 20px hsl(230, 89%, 62%) solid;
+}
+.item-image-container.scissors {
+  background-color: #fff;
+  border: 20px hsl(39, 89%, 49%) solid;
+}
+.item-image-container.lizard {
+  background-color: #fff;
+  border: 20px hsl(261, 73%, 60%) solid;
+}
+.item-image-container.spock {
+  background-color: #fff;
+  border: 20px hsl(189, 59%, 53%) solid;
+}
+
+.play-again-container {
+  text-align: center;
+}
+
+.play-again-container h1 {
+  font-size: 50px;
+}
+
+.playAgainBtn {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 170px;
+  padding: 15px 12px;
+  font-weight: bold;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.playAgainBtn:hover {
+  opacity: 0.7;
+  transition: 0.2s ease-in-out all;
+}
+
+.rock-div {
+  cursor: pointer;
+  border: 15px hsl(349, 71%, 52%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 55%;
+  bottom: 0%;
+  background-color: #fff;
+}
+
+.paper-div {
+  cursor: pointer;
+  border: 15px hsl(230, 89%, 62%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 58%;
+  top: 30%;
+  background-color: #fff;
+}
+
+.scissors-div {
+  cursor: pointer;
+  border: 15px hsl(39, 89%, 49%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 46%;
+  top: 0%;
+  background-color: #fff;
+}
+
+.lizard-div {
+  cursor: pointer;
+  border: 15px hsl(261, 73%, 60%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 38%;
+  bottom: 0%;
+  background-color: #fff;
+}
+
+.spock-div {
+  cursor: pointer;
+  border: 15px hsl(189, 59%, 53%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 33%;
+  top: 30%;
+  background-color: #fff;
+}
+
+.score-container {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(217, 9%, 55%);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.score-container h1 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1230px) {
+  .rock-div {
+    left: 55%;
+    bottom: 0%;
+  }
+
+  .paper-div {
+    left: 65%;
+    top: 30%;
+  }
+
+  .scissors-div {
+    left: 40%;
+    top: 0%;
+  }
+
+  .lizard-div {
+    left: 15%;
+    bottom: 0%;
+  }
+
+  .spock-div {
+    left: 10%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .gamePicked {
+    width: 95%;
+  }
+
+  .item-image-container {
+    height: 200px;
+    width: 200px;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .item-image-container {
+    height: 170px;
+    width: 170px;
+  }
+}

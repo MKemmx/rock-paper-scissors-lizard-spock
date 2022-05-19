@@ -1,0 +1,61 @@
+.rock-div-classic {
+  cursor: pointer;
+  border: 15px hsl(349, 71%, 52%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 45%;
+  bottom: 0%;
+  background-color: #fff;
+}
+
+.paper-div-classic {
+  cursor: pointer;
+  border: 15px hsl(230, 89%, 62%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 55%;
+  top: 0%;
+  background-color: #fff;
+}
+
+.scissors-div-classic {
+  cursor: pointer;
+  border: 15px hsl(39, 89%, 49%) solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 35%;
+  top: 0%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1230px) {
+  .rock-div-classic {
+    left: 40%;
+    bottom: 0%;
+  }
+
+  .paper-div-classic {
+    left: 65%;
+    top: 0%;
+  }
+
+  .scissors-div-classic {
+    left: 10%;
+    top: 0%;
+  }
+}
